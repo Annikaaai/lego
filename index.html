@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!--Стартовые стили шаблона-->
+  <link rel="stylesheet" href="css/starter.css">
+  <!--Ваши стили-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id = "body">
+  
+	<!--НАЧАЛО Шапка-->
+  <header class="mainheader">
+    <div class="container">
+     
+      <img src="img/logo.png">
+      
+      <nav class="mainnav">
+      	<ul>
+      		<li class="activev" id = "li1"><a>Серии наборов</a></li>
+      		<li id = "li2"><a>O компании</a></li>
+      		<li id = "li3"><a>Оставить заявку</a></li>
+      		<li id = "li4"><a>Собери комплект</a></li>
+      		<li><img src="img/cart25.png" id = "corb" class="open-popup open-popup0"> <b id = "purchase">0</b> </li>
+      	</ul>
+		  <div id = "long_pal"></div>
+		  <div id = "long_pal2"></div>
+      </nav>
+    </div>
+	
+  </header>
+
+
+  <div class="popup__bg popup__bg0"> 
+	<form class="popup popup0">
+		<img class="close-popup close-popup0">
+		<div class = "a">
+			<img src = "img/cart25.png">
+		</div>
+		<h2>Ваша корзина:</h2>
+		<h3> Пожарная машина — 5500₽ — <b id = "val1">0</b> шт</h3>
+		<h3> Гоночная машина — 5700₽ — <b id = "val2">0</b> шт</h3>
+		<h3> Попугай — 1700₽ — <b id = "val3">0</b> шт</h3>
+		<h3> Аэропорт — 3500₽ — <b id = "val4">0</b> шт</h3>
+		<h3> Вертолет — 4500₽ — <b id = "val5">0</b> шт</h3>
+		<h3> Дом (красный) — 7500₽ — <b id = "val6">0</b> шт</h3>
+		<h2>Итоговая сумма: <b id = "val0">0</b>₽</h2>
+		<div class = "a">
+			<div class = "clear a" id = "clearx">Очистить</div>
+		</div>
+		
+	</form>
+	</div>  
+
+  
+  <div class = "a">
+	<img src = "img/lego.png" id = "preloader">
+  </div>
+
+	<!--КОНЕЦ Шапка-->
+
+  <main id = "main">
+    <div class="container">
+     
+      <!--НАЧАЛО Секция "Серии наборов"-->
+      <section class = "t1" id = "con1">
+        <h2>Серии наборов</h2>
+        
+        <!--Стрелки для листания слайдера-->
+				<img src="img/arrow_right.png" class="slider_arrow_right" id = "arr2">
+				<img src="img/arrow_left.png" class="slider_arrow_left" id = "arr1">
+       
+        <!--НАЧАЛО Обертка для слайдов-->
+        <div class="kit_slides_wrapper">
+         
+          <!-- НАЧАЛО Слайд №1-->
+        	<div class="kit_slide">
+        	  <img src="img/series/series1.jpg" id = "image">
+        	  <div class="info">
+        	    <h3 id = "h31">THE LEGO MOVIE</h3>
+        	    <p id = "p1">
+        	      Познакомься с наборами из серии THE LEGO® MOVIE 2™, посмотри, как Эммет разворачивает свой новый дом мечты/спасательную ракету, когда Мими Катавасия прибывает на звездолёте.
+        	    </p>
+        	  </div>
+        	</div>
+			
+          <!-- КОНЕЦ Слайд №1-->
+        </div>
+        <!--КОНЕЦ Обертка для слайдов-->
+      </section>
+      <!--КОНЕЦ Секция "Серии наборов"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "О компании"-->
+      <section class = "t2" id = "con2">
+      	<h2>О компании</h2>
+      	
+      	<p>
+      		<strong>LEGO Group</strong> — датская частная компания, занимающаяся производством одноимённых серий развивающих игрушек, представляющих собой наборы деталей для сборки и моделирования разнообразных предметов — конструкторов. Второй по величине (после Hasbro) производитель игрушек в мире.
+      	</p>
+      	<p>
+      		Головной офис компании находится в Дании. Здесь же, в Дании, на полуострове Ютландия, в небольшом городке Биллунд, находится и самый большой Леголенд в мире — город, полностью построенный из конструктора LEGO.
+      	</p>
+      	<p>
+      		Основой наборов является кирпичик LEGO — деталь, представляющая собой полый пластмассовый блок, соединяющийся с другими такими же кирпичиками на шипах. В наборы также могут входить множество других деталей: фигурки людей и животных, колёса и так далее. Существуют наборы, в которые входят электродвигатели, различного рода датчики и даже микроконтроллеры. Наборы позволяют собирать модели автомобилей, самолётов, кораблей, зданий, роботов. Воплощает идею модульности, наглядно демонстрирующий детям то, как можно решать некоторые технические проблемы, также прививает навыки сборки, ремонта и разборки техники.
+      	</p>
+      </section>
+      <!--КОНЕЦ Секция "О компании"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Оставить заявку"-->
+      <section class = "t3" id = "con3">
+      	<h2>Оставить заявку</h2>
+      	
+      	<!--НАЧАЛО Обертка/флекс-контейнер-->
+      	<div class="order-wrapper">
+      	  <!--НАЧАЛО Левая часть с полями для ввода-->
+      		<div class="order-form">
+      			<!--Имя-->
+      			<label for="firstname_field">Имя</label>
+      			<input type="text" id="firstname_field"> 
+      			<!--Фамилия-->
+      			<label for="lastname_field">Фамилия</label>
+      			<input type="text" id="lastname_field">
+      			<!--Номер телефона-->     	
+      			<label for="phone_field">Телефон</label>
+      			<input type="text" id="phone_field">
+      			<button id = "form">Отправить</button>
+      		</div>
+      	  <!--КОНЕЦ Левая часть с полями для ввода-->
+      	  
+      	  <!--НАЧАЛО Правая часть с сообщением-->
+      		<div id = "mess" class="order-alert visible">
+      			<p id = "text_mess">
+      				
+      			</p>
+      		</div>      	  
+      		<!--КОНЕЦ Правая часть с сообщением-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер-->
+      </section>
+      <!--КОНЕЦ Секция "Оставить заявку"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Собери комплект"-->
+      <section class = "t4" id = "con4">
+      	<h2>Собери комплект</h2>
+      	
+		    
+
+      	<!--НАЧАЛО Обертка/флекс-контейнер для товаров-->
+      	<div class="goods-wrapper">
+<div class="popup__bg popup__bg1"> 
+<form class="popup popup1">
+	<img class="close-popup close-popup1">
+	<div class = "a">
+	<img src = "img/goods/1.png">
+	</div>
+		<h3>Пожарная машина</h3>
+		<h3>5500₽</h3>
+</form>
+</div>  
+	
+			<div class="popup__bg popup__bg2"> 
+				<form class="popup popup2">
+					<img class="close-popup close-popup2">
+					<div class = "a">
+						<img src = "img/goods/2.jpg">
+					</div>
+					<h3>Гоночная машина</h3>
+					<h3>5700₽</h3>
+				</form>
+			</div>  
+			<div class="popup__bg popup__bg3"> 
+				<form class="popup popup3">
+					<img class="close-popup close-popup3">
+					<div class = "a">
+						<img src = "img/goods/3.jpg">
+					</div>
+					<h3>Попугай</h3>
+					<h3>1700₽</h3>
+				</form>
+			</div>  
+			<div class="popup__bg popup__bg4"> 
+				<form class="popup popup4">
+					<img class="close-popup close-popup4">
+					<div class = "a">
+						<img src = "img/goods/4.jpg">
+					</div>
+					<h3>Аэропорт</h3>
+					<h3>3500₽</h3>
+				</form>
+			</div>  
+			<div class="popup__bg popup__bg5"> 
+				<form class="popup popup5">
+					<img class="close-popup close-popup5">
+					<div class = "a">
+						<img src = "img/goods/5.jpg">
+					</div>
+					<h3>Вертолет</h3>
+					<h3>4500₽</h3>
+				</form>
+			</div>  
+			<div class="popup__bg popup__bg6"> 
+				<form class="popup popup6">
+					<img class="close-popup close-popup6">
+					<div class = "a">
+						<img src = "img/goods/6.jpg">
+					</div>
+					<h3>Дом (красный)</h3>
+					<h3>7500₽</h3>
+				</form>
+			</div>
+      		<!--НАЧАЛО Товар №1-->
+      		<div class="product visible">
+      			<img src="img/goods/1.png" class="open-popup open-popup1">
+      			<h4>Пожарная машина</h4>
+      			<button class = "buy buy1"><img src="img/cart16.png" class = "buy buy1"></button>
+				
+      		</div>
+      		<!--КОНЕЦ Товар №1-->
+      		<!--НАЧАЛО Товар №2-->
+      		<div class="product visible">
+      			<img src="img/goods/2.jpg" class="open-popup open-popup2">
+      			<h4>Гоночная машина</h4>
+      			<button class = "buy buy2"><img src="img/cart16.png" class = "buy buy2"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №2-->
+      		<!--НАЧАЛО Товар №3-->
+      		<div class="product visible">
+      			<img src="img/goods/3.jpg" class="open-popup open-popup3">
+      			<h4>Попугай</h4>
+      			<button class = "buy buy3"><img src="img/cart16.png" class = "buy buy3"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №3-->
+      		
+      		<!--НАЧАЛО Товар №4-->
+      		<div class="product visible">
+      			<img src="img/goods/4.jpg" class="open-popup open-popup4">
+      			<h4>Аэропорт</h4>
+      			<button class = "buy buy4"><img src="img/cart16.png" class = "buy buy4"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №4-->
+      		<!--НАЧАЛО Товар №5-->
+      		<div class="product visible">
+      			<img src="img/goods/5.jpg" class="open-popup open-popup5">
+      			<h4>Вертолет</h4>
+      			<button class = "buy buy5"><img src="img/cart16.png" class = "buy buy5"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №5-->
+      		<!--НАЧАЛО Товар №6-->
+      		<div class="product visible">
+      			<img src="img/goods/6.jpg" class="open-popup open-popup6">
+      			<h4>Дом (красный)</h4>
+      			<button class = "buy buy6"><img src="img/cart16.png" class = "buy buy6"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №6-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер для товаров-->
+      </section>
+      <!--КОНЕЦ Секция "Собери комплект"-->
+	  
+      
+
+
+
+
+
+    </div>
+  </main>
+  <footer>Up</footer>
+  <script src = "script.js"></script>
+</body>
+</html>
